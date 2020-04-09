@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Group of group Suite]">
+  <test thread-count="5" verbose="0" name="Group of group Test(failed)">
+    <classes>
+      <class name="test.uitestsuite.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="test_toptal_link"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- test.uitestsuite.HomePageTest -->
+    </classes>
+  </test> <!-- Group of group Test(failed) -->
+</suite> <!-- Failed suite [Group of group Suite] -->

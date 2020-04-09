@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Sample test]" parallel="tests">
+  <test thread-count="2" verbose="0" name="Google Landing(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test.uitestsuite.GoogleLandingTest">
+        <methods>
+          <include name="googleLandingTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- test.uitestsuite.GoogleLandingTest -->
+    </classes>
+  </test> <!-- Google Landing(failed) -->
+</suite> <!-- Failed suite [Sample test] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sample test" duration-ms="3648" started-at="2020-04-08T19:53:29Z" finished-at="2020-04-08T19:53:33Z">
+    <groups>
+    </groups>
+    <test name="Google Landing" duration-ms="3648" started-at="2020-04-08T19:53:29Z" finished-at="2020-04-08T19:53:33Z">
+      <class name="test.uitestsuite.GoogleLandingTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:test.uitestsuite.GoogleLandingTest@80ec1f8]" name="setup" is-config="true" duration-ms="6766" started-at="2020-04-08T19:53:22Z" finished-at="2020-04-08T19:53:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="googleLandingTest()[pri:0, instance:test.uitestsuite.GoogleLandingTest@80ec1f8]" name="googleLandingTest" duration-ms="3521" started-at="2020-04-08T19:53:29Z" finished-at="2020-04-08T19:53:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLandingTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:test.uitestsuite.GoogleLandingTest@80ec1f8]" name="teardown" is-config="true" duration-ms="272" started-at="2020-04-08T19:53:33Z" finished-at="2020-04-08T19:53:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- test.uitestsuite.GoogleLandingTest -->
+    </test> <!-- Google Landing -->
+  </suite> <!-- Sample test -->
+</testng-results>

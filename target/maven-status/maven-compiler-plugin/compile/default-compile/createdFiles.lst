@@ -1,0 +1,4 @@
+test/webpages/commons/ElementsUtil.class
+test/webpages/pages/Page.class
+test/webpages/pages/GoogleLandingPage.class
+test/util/CaptureSnapshot.class
